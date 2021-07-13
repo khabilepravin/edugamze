@@ -2,6 +2,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+// import firebase from "firebase";
+
+// firebase.initializeApp({
+//   apiKey: process.env.NEXT_PUBLIC_ENV_apiKey,
+//   authDomain: process.env.NEXT_PUBLIC_ENV_authDomain,
+//   databaseURL: process.env.NEXT_PUBLIC_ENV_databaseURL,
+//   projectId: process.env.NEXT_PUBLIC_ENV_projectId,
+//   storageBucket: process.env.NEXT_PUBLIC_ENV_storageBucket,
+//   messagingSenderId: process.env.NEXT_PUBLIC_ENV_messagingSenderId,
+//   appId: process.env.NEXT_PUBLIC_ENV_appId,
+// });
+
 export default function Home() {
   return (
     <div className={styles.container}>
