@@ -2,15 +2,9 @@ import React from "react";
 import { Table, Badge, Button, Row, Col, Container } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faCheck, faGamepad, faListAlt } from "@fortawesome/free-solid-svg-icons";
-import { useHistory } from "react-router-dom";
 
 const Result = React.memo((props) => {
-  const history = useHistory();
-  const handleNewGameClick = () => {
-    history.push("/");
-  };
-
-  if (props.location.state) {
+  if (props.results) {
     return (
       <Container>
         <br/>
@@ -22,7 +16,7 @@ const Result = React.memo((props) => {
             <Button
               color="primary"
               className="float-right"
-              onClick={handleNewGameClick}
+              onClick={props.handleNewGameClick}
             >
               <FontAwesomeIcon icon={faGamepad} /> New Game
             </Button>
@@ -37,7 +31,7 @@ const Result = React.memo((props) => {
             </tr>
           </thead>
           <tbody>
-            {props.location.state.map((result) => {
+            {props.results.map((result) => {
               return (
                 <tr key={result.word}>
                   <th>
@@ -66,7 +60,7 @@ const Result = React.memo((props) => {
     return (
       <Container>
         {" "}
-        <Button color="primary" onClick={handleNewGameClick}>
+        <Button color="primary" onClick={props.handleNewGameClick}>
           <FontAwesomeIcon icon={faGamepad} /> New Game
         </Button>{" "}
         <h2>No results </h2>

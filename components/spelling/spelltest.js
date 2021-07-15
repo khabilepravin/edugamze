@@ -6,6 +6,7 @@ import { Button, Container, Col, Row, Progress, Input, Form, Badge } from "react
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faForward, faCheck } from "@fortawesome/free-solid-svg-icons";
 import Word from "./word";
+import Result from "./result";
 
 import { useGetData } from "../../hooks/useGetDataHook";
 
@@ -67,7 +68,7 @@ const SpellTest = () => {
         userEnteredAnswer: userAnswer,
         isCorrect: isCorrect,
       });
-      history.push("/result", finalResult);
+      //history.push("/result", finalResult);
     }
   };
 
@@ -75,7 +76,11 @@ const SpellTest = () => {
     setUserAnswer(event.target.value);
   };
 
-  if (data.length > 0) {
+  const newGameClickHandler = () => {
+    window.location.reload();
+  };
+
+  if (data.length > 0 && results.length < totalWordsInATest) {
     return (
       <Form onSubmit={moveToNextWord}>
         <Container>
@@ -125,9 +130,14 @@ const SpellTest = () => {
         </Container>
       </Form>
     );
-  } else {
+  }
+  else if(results.length === totalWordsInATest){
+    return <Result results={results} handleNewGameClick={newGameClickHandler}/>;
+  }
+   else {
     return <h3>Loading...</h3>;
   }
 };
 
 export default SpellTest;
+
