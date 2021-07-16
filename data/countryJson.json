@@ -1,0 +1,1335 @@
+[
+    {
+        "countryName": "India",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "United States",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "United Kingdom",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Germany",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Russia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Australia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "New Zealand",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Japan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Canada",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Brazil",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Mexico",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Austria",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Afghanistan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+    },
+    {
+        "countryName": "Albania",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+    },
+    {
+        "countryName": "Algeria",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "American Samoa",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Andorra",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Angola",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Anguilla",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Bhutan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Democratic Republic of the Congo",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Liechtenstein",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Sudan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Zimbabwe",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Mauritania",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Mozambique",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Nigeria",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Iraq",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Guyana",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Namibia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Senegal",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Turkmenistan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Fiji",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Gabon",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Uzbekistan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Cameroon",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Cuba",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Faroe Islands",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "El Salvador",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Caribbean",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Ethiopia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Mongolia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Puerto Rico",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Samoa",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Myanmar",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Nicaragua",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Seychelles",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Tajikistan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Dominican Republic",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Guinea",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Barbados",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "CI",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Laos",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Libya",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Panama",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Bahrain",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Benin",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Ghana",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Haiti",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Montenegro",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Somalia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Syria",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Ecuador",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Honduras",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Madagascar",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Papua New Guinea",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Tunisia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Botswana",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Cyprus",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Bahamas",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "New Caledonia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Uganda",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Yemen",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Zambia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Antarctica",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Paraguay",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Jamaica",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Palestine",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Bolivia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Bosnia and Herzegovina",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Vietnam",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Kenya",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Luxembourg",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Niger",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Kuwait",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Hawaii",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Scotland",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Cambodia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Uruguay",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Kyrgyzstan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Saudi Arabia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Indonesia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Azerbaijan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "United Arab Emirates",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Mauritius",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Morocco",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "South Korea",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Kazakhstan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Macedonia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Venezuela",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Taiwan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Qatar",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Jordan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Iceland",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Guatemala",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Costa Rica",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Hong Kong",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "San Marino",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Colombia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Moldova",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Armenia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Malta",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Nepal",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Lebanon",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Malaysia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Serbia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Peru",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Trinidad and Tobago",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Lithuania",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Estonia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Georgia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Iran",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Chile",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Latvia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Thailand",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Egypt",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Slovenia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Mexico",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Belarus",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Slovakia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Sri Lanka",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Croatia",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Philippines",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Bangladesh",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Turkey",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Romania",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Italy",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "South Africa",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+    },
+    {
+        "countryName": "Hungary",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Pakistan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Portugal",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Ukraine",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Greece",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Oman",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Argentina",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Singapore",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": false
+        
+    },
+    {
+        "countryName": "Bulgaria",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Japan",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Czech Republic",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Ireland",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "China",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Finland",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Brazil",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Norway",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Denmark",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Belgium",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "New Zealand",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Spain",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Switzerland",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Poland",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Israel",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Sweden",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Netherlands",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "France",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Burundi",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Tanzania",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    },
+    {
+        "countryName": "Burkina Faso",
+        "facts": [
+            {}
+        ],
+        "isVisibleOnMap": true
+        
+    }
+]
