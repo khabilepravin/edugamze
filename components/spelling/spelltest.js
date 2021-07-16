@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { useHistory } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.css'
+
 
 import { Button, Container, Col, Row, Progress, Input, Form, Badge } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -85,10 +85,8 @@ const SpellTest = () => {
       <Form onSubmit={moveToNextWord}>
         <Container>
           <Row>
-            <Col>
-              <br />
+            <Col className="d-flex justify-content-center">
               <Word currentWord={data[currentIndex].wordData} />
-              <br />
             </Col>
           </Row>
           <Row>
@@ -118,7 +116,7 @@ const SpellTest = () => {
             </Col>
           </Row>
           <Row>
-            <Col>
+            <Col className="d-flex justify-content-center">
               <Button color={buttonClass} type="submit">
                 <FontAwesomeIcon
                   icon={buttonText == "Done" ? faCheck : faForward}

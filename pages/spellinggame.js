@@ -1,4 +1,6 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.css'
+
 import SpellTest from "../components/spelling/spelltest";
 
 import firebase from "firebase";
