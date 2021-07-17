@@ -1,51 +1,29 @@
 import React, { useState } from "react";
-import Chart from "react-google-charts";
 import { Container, Row, Col, Table, Badge, Button, Alert } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-//import { useHistory } from "react-router";
 import {
   faTimes,
   faCheck,
   faGamepad,
-  //faListAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
 import Map from "./map";
 
 const ResultMap = React.memo((props) => {
   const [selectedResultCountry, setSelectedResultCountry] = useState("");
-  //const history = useHistory();
-  // const handleNewGameClick = () => {
-  //   history.push("/");
-  // };
-
+  
   const handleResultCountrySelection = (countryClicked) => {
     setSelectedResultCountry(countryClicked);
   };
 
   if (props.results) {
-    // let chartData = [["Country"]];
-
-    // props.results.map((result) => {
-    //   chartData.push([result.countryName, result.isCorrect ? 1 : 0]);
-    // });
-
     return (
       <Container>
         <br />
         <Alert color="primary">
-          Mouseover or tap on the map to see country names
+          Click to locate it on the map
         </Alert>
-        {/* <Badge color="danger">
-          <h6>
-            <FontAwesomeIcon icon={faTimes} />
-          </h6>
-        </Badge>
-        <Badge color="success">
-          <h6>
-            <FontAwesomeIcon icon={faCheck} />
-          </h6>
-        </Badge> */}
+
         <br />
 
         <Button color="primary" onClick={props.handleNewGameClick}>
