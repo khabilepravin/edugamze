@@ -10,18 +10,25 @@ import {
   //faListAlt,
 } from "@fortawesome/free-solid-svg-icons";
 
+import Map from "./map";
+
 const ResultMap = React.memo((props) => {
+  const [selectedResultCountry, setSelectedResultCountry] = useState("");
   //const history = useHistory();
   // const handleNewGameClick = () => {
   //   history.push("/");
   // };
 
-  if (props.results) {
-    let chartData = [["Country", "Guessed"]];
+  const handleResultCountrySelection = (countryClicked) => {
+    setSelectedResultCountry(countryClicked);
+  };
 
-    props.results.map((result) => {
-      chartData.push([result.countryName, result.isCorrect ? 1 : 0]);
-    });
+  if (props.results) {
+    // let chartData = [["Country"]];
+
+    // props.results.map((result) => {
+    //   chartData.push([result.countryName, result.isCorrect ? 1 : 0]);
+    // });
 
     return (
       <Container>
@@ -29,7 +36,7 @@ const ResultMap = React.memo((props) => {
         <Alert color="primary">
           Mouseover or tap on the map to see country names
         </Alert>
-        <Badge color="danger">
+        {/* <Badge color="danger">
           <h6>
             <FontAwesomeIcon icon={faTimes} />
           </h6>
@@ -38,7 +45,7 @@ const ResultMap = React.memo((props) => {
           <h6>
             <FontAwesomeIcon icon={faCheck} />
           </h6>
-        </Badge>
+        </Badge> */}
         <br />
 
         <Button color="primary" onClick={props.handleNewGameClick}>
@@ -48,20 +55,40 @@ const ResultMap = React.memo((props) => {
         <br />
         <Row>
           <Col className="d-flex justify-content-center">
-            <Chart
-              chartType="GeoChart"
-              data={chartData}
-              mapsApiKey={process.env.REACT_APP_mapApiKey}
-              rootProps={{ "data-testid": "2" }}
-              options={{
-                domain: "IN",
-                defaultColor: "#0000FF",
-                enableRegionInteractivity: true,
-                colorAxis: { colors: ["red", "green"] },
-              }}
-            />
+            <Map currentCountry={selectedResultCountry}/>
           </Col>
         </Row>
+        <Table>
+          <thead>
+            <tr>
+              <th>Actual Country</th>
+              <th>Your Guess</th>
+            </tr>
+          </thead>
+          <tbody>
+            {props.results.map((result) => {
+              return (
+                <tr key={result.countryName}>
+                  <th>
+                    <Button color="success" onClick={() => handleResultCountrySelection(result.countryName)}>
+                      {result.countryName}
+                    </Button>
+                  </th>
+                  <th>
+                    <Badge color={result.isCorrect ? "primary" : "danger"}>
+                      <h6>{result.userEnteredAnswer}</h6>
+                    </Badge>{" "}
+                    {}
+                    <FontAwesomeIcon
+                      icon={result.isCorrect ? faCheck : faTimes}
+                      color="primary"
+                    />
+                  </th>
+                </tr>
+              );
+            })}
+          </tbody>
+        </Table>
       </Container>
     );
   } else {

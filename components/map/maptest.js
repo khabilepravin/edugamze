@@ -44,26 +44,26 @@ const MapTest = () => {
   const [buttonText, setButtonText] = useState("Next");
   const [buttonClass, setButtonClass] = useState("primary");
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [userAnswer, setUserAnswer] = useState("");
+  //const [userAnswer, setUserAnswer] = useState("");
   const [results, setResults] = useState([]);
 
-  const handleUserAnswer = (event) => {
-    setUserAnswer(event.target.value);
-  };
+  // const handleUserAnswer = (event) => {
+  //   setUserAnswer(event.target.value);
+  // };
 
-  const moveToNextCountry = (event) => {
+  const moveToNextCountry = (data) => {
     //event.preventDefault();
-    setUserAnswer("");
+    //setUserAnswer("");
     let isCorrect = verifyIfCorrect(
       countries[currentIndex].countryName,
-      userAnswer
+      data.countryName
     );
 
     setResults((results) => [
       ...results,
       {
         countryName: countries[currentIndex].countryName,
-        userEnteredAnswer: userAnswer,
+        userEnteredAnswer: data.countryName,
         isCorrect: isCorrect,
       },
     ]);
@@ -77,27 +77,27 @@ const MapTest = () => {
 
     if (currentIndex === totalCountriesInATest - 1) {
       let finalResult = results.slice();
-      let isCorrect = verifyIfCorrect(countries[currentIndex].countryName);
+      let isCorrect = verifyIfCorrect(countries[currentIndex].countryName, data.countryName);
       finalResult.push({
         countryName: countries[currentIndex].countryName,
-        userEnteredAnswer: userAnswer,
+        userEnteredAnswer: data.countryName,
         isCorrect: isCorrect,
       });
       setResults(finalResult);
     }
   };
 
-  const resetForNewGame = () => {
-    setCurrentIndex(0);
-    setResults([]);
-    setAttempts(attempts + 1);
-    setButtonClass("primary");
-    setButtonText("Next");
-  };
+  // const resetForNewGame = () => {
+  //   setCurrentIndex(0);
+  //   setResults([]);
+  //   setAttempts(attempts + 1);
+  //   setButtonClass("primary");
+  //   setButtonText("Next");
+  // };
 
   const handleUserSelection = (data) => {
-    setUserAnswer(data.countryName);
-    moveToNextCountry();
+    //setUserAnswer(data.countryName);
+    moveToNextCountry(data);
   };
 
   const handleNewGameClick = () => {
@@ -136,7 +136,7 @@ const MapTest = () => {
               <br />
             </Col>
           </Row>
-          <Row>
+          {/* <Row>
             <Col className="d-flex justify-content-center">
               <Button color={buttonClass} type="submit">
                 <FontAwesomeIcon
@@ -145,7 +145,7 @@ const MapTest = () => {
                 {buttonText}
               </Button>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </Form>
     );

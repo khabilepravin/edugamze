@@ -1,18 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ButtonGroup, Button } from "reactstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircle, faCheck } from "@fortawesome/free-solid-svg-icons";
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
 const RandomOptions = React.memo((props) => {
-  //const[userSelectedOption, setUserSelectedOption] = useState({});
+  //const [userSelectedOption, setUserSelectedOption] = useState('');
   const fullListOfOptions = props.completeOptions;
   const filteredList = [];
-
   const randomIndexesArr = [];
+
+  useEffect(() => {
+    
+  }, [props.rightChoice]);
 
   for (let i = 0; i < props.maxRandomChoices; ) {
     let randomI = getRandomInt(fullListOfOptions.length);
@@ -36,7 +37,9 @@ const RandomOptions = React.memo((props) => {
       <ButtonGroup vertical>
         {filteredList.map((opt) => {
           return (
-            <Button type="button" onClick={() => props.onUserSelection(opt)}>
+            <Button key={opt.countryName} color="primary"
+                type="button" 
+                onClick={() => props.onUserSelection(opt)}>
               {" "}
               {opt.countryName}
             </Button>

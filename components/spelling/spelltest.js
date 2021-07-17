@@ -68,7 +68,6 @@ const SpellTest = () => {
         userEnteredAnswer: userAnswer,
         isCorrect: isCorrect,
       });
-      //history.push("/result", finalResult);
     }
   };
 
