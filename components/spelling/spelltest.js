@@ -23,7 +23,6 @@ export const verifyIfCorrect = (word, userAnswer) => {
 };
 
 const SpellTest = () => {
-  const history = useHistory();
   const userAnswerRef = useRef(null);
   const totalWordsInATest = 10;
   const [data] = useGetData(totalWordsInATest);

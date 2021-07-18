@@ -16,12 +16,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faForward, faCheck } from "@fortawesome/free-solid-svg-icons";
 
 import { useCountryData } from "../../hooks/useCountryDataHook";
-import Map from "./map";
-import ResultMap from "./resultmap";
+//import ResultMap from "./resultmap";
+import FlagResults from "./flagResults";
 
-const filterMapVisibleCountriesOnly = (countriesArray) => {
-  return countriesArray.filter((country) => country.isVisibleOnMap === true);
-};
+// const filterMapVisibleCountriesOnly = (countriesArray) => {
+//   return countriesArray.filter((country) => country.isVisibleOnMap === true);
+// };
 
 export const verifyIfCorrect = (country, userAnswer) => {
   if (country && userAnswer) {
@@ -35,7 +35,7 @@ export const verifyIfCorrect = (country, userAnswer) => {
   }
 };
 
-const MapTest = () => {
+const FlagTest = () => {
   const totalCountriesInATest = 10;
   const [countries] = useCountryData(totalCountriesInATest);
   const [allCountries] = useCountryData(0);
@@ -91,7 +91,8 @@ const MapTest = () => {
           {" "}
           <Row>
             <Col className="d-flex justify-content-center">
-              <Map currentCountry={countries[currentIndex].countryName} />
+              {/* <Map currentCountry={countries[currentIndex].countryName} /> */}
+              <img src={countries[currentIndex].flagUrl}/>
             </Col>
           </Row>
           <br />
@@ -121,11 +122,11 @@ const MapTest = () => {
     );
   } else if (results.length === totalCountriesInATest) {
     return (
-      <ResultMap results={results} handleNewGameClick={handleNewGameClick} />
+      <FlagResults />
     );
   } else {
     return <h2>Loading...</h2>;
   }
 };
 
-export default MapTest;
+export default FlagTest;
